@@ -14,7 +14,7 @@ h3{
     font: weight 18pt;   
 }
 body{
-    background-image: "https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg";
+    background-image: url("https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg") ;
     color:#404040;
     font: weight 11pt;
     font-family: 'Georgia','Garamond','sans-serif';
