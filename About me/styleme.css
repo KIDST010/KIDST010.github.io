@@ -1,0 +1,12 @@
+h1,h3{
+    color:blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+}
+ol{
+    color: darkgreen;
+    background-color:goldenrod;
+}
+*{
+    background-color:floralwhite;
+}
