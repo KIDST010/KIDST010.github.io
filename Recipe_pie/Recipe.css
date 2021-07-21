@@ -30,6 +30,16 @@ body{
 .strike-through{
     text-decoration:line-through;
 }
+ul.description{
+list-style: none;
+}
+ul.user-comments{
+   list-style:none;
+}
+ul.user-comments li{
+    background-color: #FFFFA8 ;
+     font-style: italic;
+ }
 a{
     color:#A4A400;
 }
