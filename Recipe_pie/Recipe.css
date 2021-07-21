@@ -49,4 +49,6 @@ footer{
     font-family: monospace;
     width: 250px;
     text-align-last:right;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
