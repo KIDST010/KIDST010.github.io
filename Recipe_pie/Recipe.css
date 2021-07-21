@@ -26,5 +26,6 @@ a{
 }
 footer{
     font-family: monospace;
+    width: 250px;
     text-align-last:right;
 }
