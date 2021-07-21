@@ -27,6 +27,9 @@ body{
     overflow-y: scroll;
 
 }
+.strike-through{
+    text-decoration:line-through;
+}
 a{
     color:#A4A400;
 }
