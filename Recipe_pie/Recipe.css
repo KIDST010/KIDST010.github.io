@@ -15,11 +15,17 @@ h3{
 }  
 body{
     background-image: url('https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg');
-   
+   height: 100vh;
+   overflow: hidden;
     
     color:#404040;
     font-size:11pt;
     font-family: 'Georgia','Garamond','sans-serif';
+}
+#page-container{
+    height:100%;
+    overflow-y: scroll;
+
 }
 a{
     color:#A4A400;
