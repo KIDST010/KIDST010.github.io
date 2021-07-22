@@ -13,3 +13,6 @@
 h1,footer{
     text-align: center;
 }
+.page-container{
+    display: grid;
+}
