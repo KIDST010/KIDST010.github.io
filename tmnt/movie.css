@@ -46,10 +46,12 @@ body{
 }
 
 .reviews-container {
-    display: grid;
-    grid-template-columns: 47% 47%;
-    grid-column-gap: 2%;
-    padding: 8px;
+    display: flex;
+}
+.column-one,.column-two{
+    width:47%;
+    margin: 0 2%;
+
 }
 
 .review-rating{
