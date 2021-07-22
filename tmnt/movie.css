@@ -48,12 +48,16 @@ body{
 .reviews-container {
     display: flex;
 }
-.column-one,.column-two{
+.column-one{
     width:47%;
     margin: 0 2%;
 
 }
+.column-two{
+    width:47%;
+    margin: 0 2%;
 
+}
 .review-rating{
     font-size: 48pt;
     font-weight:bold;
