@@ -3,20 +3,21 @@
     background-color:darkslategray;
 }
 .column1{
-    width: 33px;
+    width: 25%;
     background-color:dimgray;
 }
 .column2{
-    width: auto;
+    width: 50%;
     background-color: gray;
 }
 .column3{
-    width: 33px;
+    width: 25%;
     background-color: lightgrey;
 }
+
 .menu{
     width:auto;
-    border: black;
+    border: 1px solid black;
     color: white;
     padding: 10px;
 
@@ -33,4 +34,6 @@ footer{
 }
 .page-container{
     display: grid;
-}
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+  
