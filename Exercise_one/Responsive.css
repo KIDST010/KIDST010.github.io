@@ -26,7 +26,14 @@
 }
 .columns{
     display: flex;
+    width:100%;
 }
+.column > div{
+      
+    margin: 0px;
+   padding: 150px;
+   
+ }
 h1{
     background-color:lightskyblue;
     text-align: center;
