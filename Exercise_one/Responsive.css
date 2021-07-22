@@ -1,17 +1,34 @@
 .menus{
     display: flex;
+    background-color:darkslategray;
 }
-.column{
-    width:auto;
+.column1{
+    width: 33px;
+    background-color:dimgray;
+}
+.column2{
+    width: auto;
+    background-color: gray;
+}
+.column3{
+    width: 33px;
+    background-color: lightgrey;
 }
 .menu{
     width:auto;
+    border: black;
+    color: white;
+
 }
 .columns{
     display: flex;
 }
-h1,footer{
+h1{
+    background-color:lightskyblue;
+}
+footer{
     text-align: center;
+    background-color:darkslategray;
 }
 .page-container{
     display: grid;
