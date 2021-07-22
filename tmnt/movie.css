@@ -44,12 +44,7 @@ body{
 .review-rating-banner{
     background-image: url("images/rbg.png");
 }
-.reviews-container {
-    display: grid;
-    grid-template-columns: 47% 47%;
-    grid-column-gap: 2%;
-    padding: 8px;
-}
+
 
 .review-rating{
     font-size: 48pt;
