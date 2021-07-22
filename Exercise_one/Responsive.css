@@ -1,0 +1,15 @@
+.menus{
+    display: flex;
+}
+.column{
+    width:auto;
+}
+.menu{
+    width:auto;
+}
+.columns{
+    display: flex;
+}
+h1,footer{
+    text-align: center;
+}
