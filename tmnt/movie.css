@@ -46,9 +46,11 @@ body{
 }
 .review-container1{
     display:inline-block;
-    grid-template-columns: 47% 47%;
-    grid-column-gap: 2%;
-    padding: 8px;
+    width: 47%;
+    height:47%;
+  
+    margin: 1em;
+    
 }
 
 .review-rating{
