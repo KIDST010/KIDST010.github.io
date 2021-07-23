@@ -1,0 +1,42 @@
+.column1{
+
+    background-color:dimgray;
+   
+}
+.column2{
+  
+    background-color: gray;
+   
+}
+
+.column3{
+   
+    background-color: lightgrey;
+}
+    
+ 
+.header{
+    background-color:lightskyblue;
+    text-align: center;
+    margin:0;
+
+    font-size: 35px;
+    margin:0;
+}
+.footer{
+    text-align: center;
+    background-color:darkslategray;
+    font-size: 35px;
+    margin:0;
+}
+
+.menus{
+background-color:darkslategray;
+width:auto;
+border: 1px solid black;
+font-size: 15px;
+color: white;
+padding:15px;
+margin:0;
+
+}
