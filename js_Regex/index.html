@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>First java script</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+  <!-- add mocha framework code -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
+  <script>
+    mocha.setup('bdd'); // minimal setup
+  </script>
+  <!-- add chai -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
+  <script>
+    // chai has a lot of stuff, let's make assert global
+    let assert = chai.assert;
+  </script>
+       
+    </head>
+    <body>
+       
+<script src="test.js"></script>
+<script>
+
+function sum(numbers) {
+    return numbers.reduce((total, number) => {
+		return total + number;
+    })
+}
+function multiply(numbers) {
+    return numbers.reduce((total, number) => {
+		return total * number;
+    })
+}
+function reverse(word){
+    
+    return word.split('').reduce((r, c)=> c + r, '');
+}
+function filterLongWords(arrWords,i){
+    const longWords = arrWords.filter(word => word.length > i);
+return longWords;
+}
+  
+  
+     
+    
+                </script>
+            
+
+  <!-- the element with id="mocha" will contain test results -->
+  <div id="mocha"></div>
+  <script>
+    mocha.run();
+  </script> 
+<div class="validation-links">
+    <a href="https://validator.w3.org/nu/?doc=https://kidst010.github.io/java_script/index.html"><img src="https://manalabs.org/img/w3c-html.png" alt="Valid HTML5" /></a> <br />
+   
+</div>
+    </body>
+</html>
